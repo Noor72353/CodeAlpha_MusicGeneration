@@ -1,0 +1,21 @@
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Downloaded MIDI training dataset
+data/*.mid
+data/*.midi
+
+# Generated preprocessing and training data
+note_sequences.json
+training_data.npz
+
+# Keep generated sample MIDI files available for GitHub
+# (output/generated_music.mid will be included)
+
+# Keep the trained model available for GitHub
+# (models/ files will be included)
